@@ -1,0 +1,19 @@
+{
+  "name": "reactproject",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "my-react-app"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=my-react-app run dev",
+    "build": "npm --workspace=my-react-app run build",
+    "vercel-build": "npm --workspace=my-react-app run build",
+    "preview": "npm --workspace=my-react-app run preview",
+    "lint": "npm --workspace=my-react-app run lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "react-router-dom": "^7.18.0"
+  }
+}
