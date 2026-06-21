@@ -38,14 +38,6 @@ const Home = () => {
 };
 
 const App = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-      offset: 100,
-    });
-  }, []);
-
   return (
     <BrowserRouter>
       <div className="bg-[#111827] min-h-screen">
